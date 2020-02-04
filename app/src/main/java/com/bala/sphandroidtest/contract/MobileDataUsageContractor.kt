@@ -9,8 +9,7 @@ interface MobileDataUsageContractor {
     {
         fun onResponseSuccess(data: Resources)
         fun onResponseFailure(throwable : Throwable)
-        fun showProgressBar()
-        fun hideProgressBar()
+
     }
 
     interface DataUsagePresenter
