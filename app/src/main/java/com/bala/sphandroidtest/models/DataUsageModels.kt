@@ -17,7 +17,7 @@ open class Result
     lateinit var records: List<Records>
 }
 
- open class Records
+open class Records
 {
     @SerializedName("volume_of_mobile_data")
     var volume_of_mobile_data : String = ""

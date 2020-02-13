@@ -24,9 +24,7 @@ class ExampleUnitTest {
     lateinit var throwable: Throwable
 
     lateinit var mobileDataUsagePresenter: MobileDataUsagePresenter
-
-
-
+    
     @Before
     fun setUp()
     {

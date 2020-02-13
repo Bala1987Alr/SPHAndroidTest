@@ -2,6 +2,8 @@ package com.bala.sphandroidtest.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.HandlerThread
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -20,6 +22,7 @@ class MainActivity : AppCompatActivity(),MobileDataUsageContractor.DataUsageView
     private lateinit var recyclerView: RecyclerView
     private lateinit var presenter : MobileDataUsagePresenter
     private lateinit var adapter : MobileDataRecycleViewAdapter
+
 
     override fun onResponseSuccess(data: Resources) {
 
