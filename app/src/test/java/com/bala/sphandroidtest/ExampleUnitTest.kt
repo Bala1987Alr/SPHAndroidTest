@@ -5,7 +5,6 @@ import com.bala.sphandroidtest.presenter.MobileDataUsagePresenter
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.mockito.Captor
 import org.mockito.Mock
 import org.mockito.Mockito
 import org.mockito.MockitoAnnotations
@@ -24,7 +23,7 @@ class ExampleUnitTest {
     lateinit var throwable: Throwable
 
     lateinit var mobileDataUsagePresenter: MobileDataUsagePresenter
-    
+
     @Before
     fun setUp()
     {
